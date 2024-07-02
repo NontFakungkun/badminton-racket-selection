@@ -13,7 +13,7 @@
 
 - [x] Pro athlete racket choices.
 
- 
+
 
 # Data Acquisition 
 
@@ -356,8 +356,6 @@ df_play_spec_plot.legend(title='Play Style', loc='upper left')
 The balance and stiffness of the racket increase proportionally to skill level. Meanwhile, the attacking racket is head-heavy, the all-round racket are balanced, and the defensive racket is head-light. The racket for training has understandably head-heaviest balance to help players build strength and improve their technique. There is not much difference in term of stiffness except that the offensive racket has slightly higher stiffness than others.
 
 
-
-
 For the price analysis, I used box plot to display a comprehensive ranges of price for different groups of racket.
 ```
 desired_order = ['Beginner', 'Intermediate', 'Advanced']
@@ -509,20 +507,21 @@ I found that the table display already conveys the findings quite well, so I enh
 
 ![athlete](images/athlete_spec_rating.png)
 
-Averagely, female athlete use racket with balance around 2.14 (slightly head-light) with stiffness of 3.64 (between medium to stiff shaft), while male athlete use racket with balance around 3.71 (almost slightly head-heavy) with stiffness of 4.35 (between stiff to very stiff shaft).
+On average, female athletes use rackets with a balance around 2.14 (slightly head-light) and a stiffness of 3.64 (between medium and stiff shaft), while male athletes use rackets with a balance around 3.71 (almost slightly head-heavy) and a stiffness of 4.35 (between stiff and very stiff shaft).
 
-Looking into the play types, Men doubles players prefer a much head-heavier (4.4) and stiffer (4.6) racket, while Men singles players use rackets with spec similar to average male athletes. (3.63 for balance rating and 4.38 for stiffness). This is probably due to the fact that Men's doubles only need to cover around half of the court and require less energy in a game. Therefore, the athlete decided to use a head-heavy and stiff racket for more powerful shots. However, that kind of play style will exhaust singles players before their games end. However, it seems the pattern seems to be different for female athletes. It turned out that female singles players use rackets with heavier heads than female doubles. Again, I presumed this is affected by the play style. Offensive play style is not so favourable in women’s doubles so they might prefer rackets with lighter head.
+Examining the play types, men's doubles players prefer much head-heavier (4.4) and stiffer (4.6) rackets, while men's singles players use rackets with specs similar to the average male athlete (3.63 for balance rating and 4.38 for stiffness). This is likely because men's doubles players only need to cover around half of the court and require less energy in a game, allowing them to use head-heavy and stiff rackets for more powerful shots. However, this play style would exhaust singles players before their games end.
 
-Another interesting result is the racket choice of mixed double players. Male mixed doubles players use the balanced racket rather than head-heavy like other male play types. Their rackets also have a stiff rating of 4 which is less than the male average. For female mixed doubles players, their racket balance rating is 1.8 (slightly head-light) and stiffness rating of 3.4 which is both lower than female singles racket. The reason is the faster tempo in mixed doubles games. The athlete needs to use head-lighter rackets which have more racket speed to catch up with the pace.
+For female athletes, the pattern seems different. Female singles players use rackets with heavier heads than female doubles players. This is likely influenced by their play style, as an offensive play style is less favorable in women’s doubles, leading them to prefer rackets with lighter heads.
 
-As an insight, while the racket balance varies for different gender and play type, the stiffness of their rackets is no less than 3. Even the minimum mean for stiffness is 3.4. This means the athletes prefer stiff rackets over flexible ones. They do not require the help of a flexible racket to push the shuttle across.
+Another interesting result is the racket choice of mixed doubles players. Male mixed doubles players use balanced rackets rather than head-heavy ones like other male play types. Their rackets also have a stiffness rating of 4, which is less than the male average. For female mixed doubles players, their racket balance rating is 1.8 (slightly head-light) and stiffness rating is 3.4, both lower than those of female singles rackets. This is due to the faster tempo in mixed doubles games, where athletes need head-lighter rackets for increased racket speed to keep up with the pace.
 
-In conclusion, not all athletes opted for power, they might prefer speed and control based on the nature of the play types. The head-heavy or stiffer racket is not better than the head-light or flexible racket and vice versa. So, your racket choice should depend on your play style and support you need from the racket.
+As an insight, while racket balance varies for different genders and play types, the stiffness of their rackets is no less than 3. Even the minimum mean stiffness is 3.4, indicating that athletes prefer stiff rackets over flexible ones. They do not rely on flexible rackets to push the shuttle across.
 
- 
+In conclusion, not all athletes opt for power; they might prefer speed and control based on the nature of their play types. A head-heavy or stiffer racket is not inherently better than a head-light or flexible racket, and vice versa. Your racket choice should depend on your play style and the support you need from the racket.
+
 > [!NOTE]
 > There’s only 1 entry of female doubles players so the result might not be fully representative.
- 
+
 
 # Interactive Racket Selection Tool
 
