@@ -1,0 +1,54 @@
+racket_id,full_name,series,balance,balance_rating,stiffness,stiffness_rating,material,suitable_for,skill_level,play_style,price_baht,random_values_bal,random_values_stf
+1,Astrox 99,Astrox,Slightly head heavy,4,Stiff,4,"Graphite, Namd",Advanced singles players with a good technique,Advanced,Offense,,-0.3417,-0.4004
+2,Astrox 88 S,Astrox,Slightly head heavy,4,Stiff,4,"Graphite, Nanometric, Tungsten",Intermediate and advanced players - especially frontcourt players with the soft touch,Intermediate,Offense,5054.19,-0.0787,0.0125
+3,Astrox 88 D,Astrox,Head heavy,5,Stiff,4,"Graphite, Namd",Intermediate and advanced players - especially for backcourt players thundering down smashes,Intermediate,Offense,5054.19,-0.3031,-0.0988
+4,Astrox 77,Astrox,Even balanced,3,Medium,3,"Graphite, Namd",Attacking players,Intermediate,Offense,4837.9,-0.2634,-0.3358
+5,Astrox 66,Astrox,Head light,1,Flexible,2,"Graphite, Namd","Defense, Doubles due to low weight",Intermediate,Defense,4507.96,-0.4803,-0.3203
+6,Astrox 55,Astrox,Head heavy,5,Stiff,4,"Graphite, Tungsten",Offense - for steep smashes,Intermediate,Offense,4863.56,-0.498,-0.2477
+7,Astrox 22,Astrox,Head heavy,5,Stiff,4,"Graphite, Tungsten","Attacking players due to stiff, head heavy shaft and very low weight - perfect acceleration",Intermediate,Offense,2934.27,0.1536,0.0147
+8,Astrox 7,Astrox,Even balanced,3,Medium,3,"Graphite, Tungsten",Allround Players - Beginner and Intermediate Level,Beginner,All-round,3053.78,0.0242,-0.3989
+9,Astrox 6,Astrox,Slightly head heavy,4,Very flexible,1,"Graphite, Tungsten",Allround Racket,Beginner,All-round,,0.0094,-0.2346
+10,Astrox FB,Astrox,Slightly head heavy,4,Medium,3,"Graphite, Nanomesh Neo",Very light-weight racket - easy to handle for beginners,Beginner,All-round,2320.58,0.2866,0.1219
+11,Astrox 100 ZZ,Astrox,Head heavy,5,Very stiff,5,"Graphite, Namd, Tungsten, Black Micro Core",Clearly a racket for attacking players with an agressive style - Best for Singles Discipline,Advanced,Offense,,0.4139,-0.1969
+12,Astrox 100 ZX,Astrox,Head heavy,5,Very stiff,5,"HM Graphite, Nanomesh Neo, Tungsten",Powerplay,Advanced,Offense,,0.2355,0.2103
+13,Nanoflare 800,Nanoflare,Head light,1,Stiff,4,"HM Graphite, Nanometric",Advanced players - Enhanced swinging speed due to head light racket balance and extra-thin frame -> enormous shuttle acceleration,Advanced,Offense,,0.1287,0.4516
+14,Nanoflare 700,Nanoflare,Head light,1,Medium,3,HM Graphite,Very dynamic racket handling for easy power & acceleration,Beginner,Offense,,0.3176,-0.0738
+15,Nanoflare 270 Speed,Nanoflare,Head light,1,Medium,3,"HM Graphite, Nanocell, Super HMG",Intermediate players - good bounce effect to help generate length,Intermediate,All-round,,-0.1236,0.2451
+16,Nanoflare 600,Nanoflare,Head light,1,Very flexible,1,HM Graphite,Beginners or intermediate players with trouble to generate power,Beginner,Offense,,0.2046,0.382
+17,Duora Z-Strike,Duora,Even balanced,3,Very stiff,5,"HM Graphite, Nanometric, Hyper-MG",Intermediate & advanced players - The extra stiff shaft doesn`t allow unclean hitting,Intermediate,All-round,4154.56,-0.2892,0.4619
+18,Duora 10,Duora,Head heavy,5,Stiff,4,"HM Graphite, Nanometric DR, Nickel Titanium Fiber",Intermediate and advanced players with good technique - good for attacking players,Intermediate,Offense,3666,-0.0695,-0.1958
+19,Duora 7,Duora,Even balanced,3,Stiff,4,"HM Graphite, Ultra PEF",The Allrounder of the Duora Series,Intermediate,All-round,4130.36,0.0378,-0.0344
+20,Duora 6,Duora,Even balanced,3,Flexible,2,"HM Graphite, Nanometric",The racket for the Ladies!,Beginner,All-round,3890.85,-0.0536,0.1954
+21,Duora 88,Duora,Even balanced,3,Stiff,4,"HM Graphite, Nanometric, Super HMG",Intermediate players,Intermediate,All-round,2909.34,-0.4428,-0.2174
+22,Duora 77,Duora,Even balanced,3,Medium,3,"HM Graphite, Nanometric","Good allround racket for League, Intermediate players - The most flexible racket of this series, so if this suits your techniqe…go for it",Intermediate,All-round,2909.34,-0.3864,-0.0838
+23,Duora 8XP,Duora,Even balanced,3,Stiff,4,"HM Graphite, Nanometric, Vibslayer Carbon",Club players,Intermediate,All-round,,0.2781,0.2522
+24,Duora 99,Duora,Even balanced,3,Stiff,4,"HM Graphite, Super HMG, Nanometric",Advanced players with a clean hitting technique,Advanced,All-round,,0.4072,0.2607
+25,Duora 9,Duora,Even balanced,3,Stiff,4,"HM Graphite, Nanometric DR, Nickel Titanium Fiber",Intermediate players,Intermediate,All-round,5081.08,0.3669,-0.1877
+26,Nanoray Z-Speed,Nanoray,Head heavy,5,Very stiff,5,"HM Graphite, Nanometric, X-Fullerene","Definitely for advanced players - if you can handle the stiff racket, you will be able to hit insanely hard smashes; counter attacking works well with the Z-Speed as well due to the easy head acceleration",Advanced,Offense,4275.78,0.0218,-0.053
+27,Nanoray GlanZ,Nanoray,Slightly head light,2,Very flexible,1,"HM Graphite, Rexil Fiber, Nanometric","Good choice for ladies, because the flexible shaft helps generating length and due to the low weight and head light balance it is easy to maneuver",Beginner,All-round,4863.56,-0.3889,0.0937
+28,Nanoray 900,Nanoray,Head light,1,Stiff,4,"HT Graphite, HM Graphite, Super HMG, X-Fullerene",Mixed and doubles players - good control and amazing for fast drives - despite being headlight its easy to generate power - one of the best rackets for doubles out there at the moment,Intermediate,Offense,4764.58,-0.299,-0.0756
+29,Nanoray 800,Nanoray,Slightly head light,2,Stiff,4,"HM Graphite, Sonic Metal, X-Fullerine",Great allround doubles racket for advanced players - like all the Nanoray rackets perfect for fast drives,Advanced,All-round,4642.38,-0.4404,-0.2143
+30,Nanoray 750,Nanoray,Head light,1,Medium,3,"HM Graphite, Nanometric, X-Fullerine",Intermediate players,Intermediate,All-round,4570.28,0.1114,-0.0845
+31,Nanoray Speed,Nanoray,Slightly head light,2,Stiff,4,"HM Graphite, Nanomesh",Allrounder for agressive attacking players with a good technique - provides good power,Intermediate,All-round,,-0.0522,0.0459
+32,Nanoray 20,Nanoray,Head light,1,Very flexible,1,"Graphite, Nanomesh, Carbon Nanotube",Beginners and Low Level Club players,Beginner,All-round,1626.97,-0.2301,0.158
+33,Nanoray 10F,Nanoray,Head light,1,Very flexible,1,"Graphite, Nanomesh, Carbon Nanotube",Beginners and recreational players,Beginner,All-round,,-0.3718,-0.0718
+34,Nanoray 6,Nanoray,Head light,1,Medium,3,"Graphite, Nanomesh, Carbon Nanotube, Aluminium",Beginners,Beginner,All-round,1221.51,0.2638,-0.4489
+35,Nanoray 70 DX,Nanoray,Head light,1,Stiff,4,"HM Graphite, Nanomesh",Intermediate and advanced control players that prefer quick racket movement,Intermediate,Defense,2442.78,0.4124,0.2815
+36,Nanoray 60 FX,Nanoray,Head light,1,Flexible,2,"HM Graphite, Light Feel Carbon Neo, Nanomesh",Beginners and Club Players,Beginner,All-round,2640.5,-0.2887,-0.2764
+37,Voltric Z-Force II,Voltric,Head heavy,5,Very stiff,5,"HM Graphite Nanometric, Ex HMG",Advanced power players,Advanced,Offense,4520.18,-0.2631,0.0103
+38,Voltric GlanZ,Voltric,Head heavy,5,Medium,3,"HM Graphite, Nanometric, Tungsten",An allround racket with good and easy handling,Intermediate,All-round,4399.2,-0.2125,-0.475
+39,Voltric 21 DG Slim,Voltric,Head heavy,5,Medium,3,"HM Graphite, Ultra HMG",Very agressive attacking players - heavy smashing possible,Intermediate,Offense,,0.063,0.1422
+40,Voltric 11 DG Slim,Voltric,Slightly head heavy,4,Medium,3,"HM Graphite, Ultra HMG, Tungsten",Good allround players,Intermediate,All-round,,0.2446,0.3888
+41,Voltric 8 DG Slim,Voltric,Slightly head heavy,4,Stiff,4,"HM Graphite, Ultra HMG, Tungsten",Intermediate attacking players,Intermediate,Offense,,0.0968,0.383
+42,Voltric 2 DG Slim,Voltric,Slightly head heavy,4,Medium,3,"HM Graphite, Ultra HMG, Tungsten",Beginners and intermediate players,Beginner,All-round,,0.3132,-0.4021
+43,Voltric Lite,Voltric,Slightly head heavy,4,Flexible,2,"Graphite, Tungsten",Beginners and recreational players - easy to handle,Beginner,All-round,1953.98,-0.3301,-0.4581
+44,Arcsaber 11,Arcsaber,Even balanced,3,Stiff,4,"HM Graphite, Neo CS Carbon Nanotube, Sonic Metal","THE perfect allround racket! My personal favorite - I have never had a better racket for singles. It even feels like my backhand gets a little “Taufikesque”, but that may be my imagination. Works for doubles as well, it is just so easy to handle - power & control combined",Intermediate,All-round,4935.66,0.387,0.327
+45,Arcsaber FD,Arcsaber,Even balanced,3,Stiff,4,"Graphite, Nanometric",Beginners and intermediate players - Easy handling due to the extremely light weight,Beginner,All-round,3577.53,0.1666,-0.3563
+46,Arcsaber Lite,Arcsaber,Even balanced,3,Medium,3,"Graphite, Nanoair Spring",Very good choice for beginners and recreational players,Beginner,All-round,1807.34,-0.029,0.4298
+47,Muscle Power 8,Muscle,Even balanced,3,Medium,3,"Aluminium, Graphite",Allrounder for beginners - very sturdy,Beginner,All-round,1587.38,-0.2283,-0.1425
+48,Muscle Power 5,Muscle,Even balanced,3,Stiff,4,"Aluminium, Steel",Beginners - enlarged sweet spot supports clean hitting,Beginner,All-round,977.11,-0.3644,-0.0825
+49,Muscle Power 2,Muscle,Even balanced,3,Stiff,4,"Aluminium, Steel",Allround racket for recreational players - good price,Beginner,All-round,1208.56,-0.4613,-0.0223
+50,Muscle Power 1,Muscle,Even balanced,3,Medium,3,"Aluminium, Steel",Starters and recreational players - The weight helps generating some length and power to the shots,Beginner,Offense,,0.2373,-0.1829
+51,Isometric TR 1,Isometric,Head heavy,5,Medium,3,Graphite,Training for Intermediate and advanced players,Intermediate,Training,,0.3978,0.1633
+52,Isometric TR 0,Isometric,Head heavy,5,Medium,3,Graphite,Also for training - an even heavier version to improve forearm power,Intermediate,Training,,0.1299,0.4531
+53,Isometric Lite 3,Isometric,Even balanced,3,Medium,3,Graphite,The lightest Isometric racket is a good choice for beginners,Beginner,All-round,2027.79,0.2759,-0.2805

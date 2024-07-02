@@ -1,0 +1,72 @@
+racket_id,racket_name,size,weight_g
+1,Astrox 99,4U,83
+2,Astrox 88 S,4U,83
+2,Astrox 88 S,3U,88
+3,Astrox 88 D,4U,83
+3,Astrox 88 D,3U,88
+4,Astrox 77,4U,83
+4,Astrox 77,3U,88
+5,Astrox 66,4U,83
+6,Astrox 55,5U,78
+7,Astrox 22,2F,68
+8,Astrox 7,4U,83
+9,Astrox 6,4U,82
+10,Astrox FB,F,73
+11,Astrox 100 ZZ,4U,82
+11,Astrox 100 ZZ,3U,88
+12,Astrox 100 ZX,4U,84
+12,Astrox 100 ZX,3U,88
+13,Nanoflare 800,4U,83
+13,Nanoflare 800,3U,88
+14,Nanoflare 700,5U,78
+14,Nanoflare 700,4U,83
+15,Nanoflare 270 Speed,5U,78
+15,Nanoflare 270 Speed,4U,83
+16,Nanoflare 600,5U,78
+16,Nanoflare 600,4U,83
+17,Duora Z-Strike,3U,88
+17,Duora Z-Strike,2U,93
+18,Duora 10,3U,88
+18,Duora 10,2U,93
+19,Duora 7,3U,88
+19,Duora 7,2U,93
+20,Duora 6,4U,83
+21,Duora 88,3U,85
+22,Duora 77,3U,88
+23,Duora 8XP,3U,85
+24,Duora 99,3U,88
+25,Duora 9,4U,83
+26,Nanoray Z-Speed,3U,88
+26,Nanoray Z-Speed,2U,93
+27,Nanoray GlanZ,4U,83
+28,Nanoray 900,3U,89
+28,Nanoray 900,2U,93
+29,Nanoray 800,4U,83
+29,Nanoray 800,3U,88
+30,Nanoray 750,4U,84
+30,Nanoray 750,3U,88
+31,Nanoray Speed,3U,88
+32,Nanoray 20,3U,88
+33,Nanoray 10F,4U,84
+34,Nanoray 6,3U,88
+35,Nanoray 70 DX,4U,83
+36,Nanoray 60 FX,4U,83
+37,Voltric Z-Force II,4U,83
+37,Voltric Z-Force II,3U,88
+38,Voltric GlanZ,4U,83
+39,Voltric 21 DG Slim,3U,88
+40,Voltric 11 DG Slim,3U,88
+41,Voltric 8 DG Slim,3U,88
+42,Voltric 2 DG Slim,3U,88
+43,Voltric Lite,4U,83
+44,Arcsaber 11,3U,88
+44,Arcsaber 11,2U,93
+45,Arcsaber FD,5U,78
+46,Arcsaber Lite,4U,83
+47,Muscle Power 8,2U,93
+48,Muscle Power 5,U,98
+49,Muscle Power 2,U,98
+50,Muscle Power 1,U,98
+51,Isometric TR 1,Training,118
+52,Isometric TR 0,Training,150
+53,Isometric Lite 3,3U,88
