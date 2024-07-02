@@ -530,6 +530,6 @@ Now come the highlight. I intended to have a scatter plot reflecting two main sp
 
 ![racket viz](images/selection-tool.png)
 
-Try out the chart in Tableau Public [here](https://public.tableau.com/views/DiscoverYourRacketYonexBadmintonRacketSelectionTool/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
+Try out the chart in Tableau Public [here](https://public.tableau.com/views/DiscoverYourRacketYonexBadmintonRacketSelectionTool/SelectionTool?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
 
