@@ -1,3 +1,4 @@
+# Discover Your Racket: Yonex Badminton Racket Selector Tool and Analysis
 > I personally struggled to find a suitable badminton racket and have to go through a rigorous amount of research to reach a conclusion. I wish there was a one-stop resource that could help me decide which racket is the perfect match based on my preferences. The resource should be comprehensive (include most of the popular rackets) and user-friendly.
 >
 > Also as a bonus, I would like to find what factors make rackets suitable for each skill level and play style, what affects racket price, and how pro athletes pick their racket.
