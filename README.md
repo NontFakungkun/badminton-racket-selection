@@ -404,7 +404,7 @@ Examine price correlation to see what is associated with price. 
 We found a small positive relationship in the linear regression analysis for both the Balance-Price and Stiffness-Price relationships. However, the regression results may not be reliable due to the limited number of scatter points from the small data sample.
 
 > [!NOTE]
-> to make regression doable, I temporarily removes row with null price, so they will only contain 34 from 53 rackets
+> To make regression doable, I temporarily removes row with null price, so they will only contain 34 from 53 rackets
 
 ```
 df_racket_temp = df_racket.dropna(subset="price_baht")
@@ -521,7 +521,7 @@ In conclusion, not all athletes opted for power, they might prefer speed and con
 
  
 > [!NOTE]
-> there’s only 1 entry of female doubles players so the result might not be fully representative.
+> There’s only 1 entry of female doubles players so the result might not be fully representative.
  
 
 # Interactive Racket Selection Tool
