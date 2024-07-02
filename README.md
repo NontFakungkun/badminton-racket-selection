@@ -93,7 +93,8 @@ df_merged = df2.merge(df1, how='left', on='Full Name')
 
 
 Here is the merged table preview
-![merged table](https://myoctocat.com/assets/images/base-octocat.svg)
+
+![merged table](images/merged_table.png)
 
 
 # Data Preparation
@@ -201,15 +202,20 @@ The player table still needs to be finalised as gender and play type is not give
 As result, these are the normalised and cleaned tables ready for further analysis
 
 ### Main Racket Table
-pic
+
+![racket table](images/excel-racket-final.png)
 
 ### Racket Size Table
-pic
+
+![size table](images/excel-size-final.png)
 
 ### Player Table
-pic
+
+![player table](images/excel-player-final.png)
 
 # Entity Relationship Diagram
+
+![ERD table](images/data%20schema%20DBML.png)
 
 ```
 Table size {
@@ -306,6 +312,10 @@ df_racket.groupby('play_style').agg(
     })
 ```
 
+![agg table](images/agg_bal_table.png)
+
+![agg table](images/agg_style_table.png)
+
 
 For spec analysis, I decided to only examine the mean from all aggregated values as other values don't provide any useful insight. 
 ```
@@ -339,7 +349,9 @@ df_play_spec_plot.set_xticklabels(['Balance Rating','Stiffness Rating'], rotatio
 # legend
 df_play_spec_plot.legend(title='Play Style', loc='upper left')
 ```
-              
+
+![spec skill plot](images/spec-skill.png)
+![spec style plot](images/spec-style.png)
 
 The balance and stiffness of the racket increase proportionally to skill level. Meanwhile, the attacking racket is head-heavy, the all-round racket are balanced, and the defensive racket is head-light. The racket for training has understandably head-heaviest balance to help players build strength and improve their technique. There is not much difference in term of stiffness except that the offensive racket has slightly higher stiffness than others.
 
@@ -376,7 +388,9 @@ plt.ylabel('Price (Baht)')
 
 plt.show()
 ```
-            
+
+![price skill plot](images/price-skill.png)
+![price style plot](images/price-style.png)
 
 The price for beginner rackets are relatively low while the intermediate and advanced rackets have similar price with intermediate rackets having larger price range.
 
@@ -428,7 +442,9 @@ plt.legend()
 plt.title('Linear Regression Analysis of Badminton Racket Stiffness and Price')
 plt.show()
 ```
-             
+
+![price bal reg](images/regression-bal-price.png)
+![price stf reg](images/regression-stf-price.png)
 
 ### Material Analysis
 Horizontal bar plot is used to show which materials are being used in badminton at different prices. The logic is that I find the average price of badminton rackets containing those materials and use that as plot value. This is because one racket is made of multiple materials so it will be difficult to compare material by racket.
@@ -456,11 +472,13 @@ material_price_df = material_price_df.sort_values('avg_price_contained', ascendi
 # Plot
 material_price_df.plot(kind='barh', title='Avg price of badminton rackets containing the material', 
                        x='Material', ylabel='Materials', xlabel='Price (Baht)', legend=False)
+```
+
+![material price](images/material-price.png)
 
 As a result, steel and aluminium have the lowest average racket prices implying the metals used in cheap rackets while more fancy names lke Neo CS Carbon Nanotube, Rexil Fiber and Namd have the highest average racket prices implying they are used in premium rackets.
 
 This chart can be useful when examining the materials of the rackets you're interested in. If a racket contains a particular material and is priced lower than the average racket with that material, it could mean a good deal for you.
-```
 
 
 ## Pro Athlete Choices 
@@ -489,6 +507,8 @@ plt.show()
 
 I found that the table display already conveys the findings quite well, so I enhanced it with a heatmap using cool and warm colors to further emphasize the differences in racket specifications for each category.
 
+![athlete](images/athlete_spec_rating.png)
+
 Averagely, female athlete use racket with balance around 2.14 (slightly head-light) with stiffness of 3.64 (between medium to stiff shaft), while male athlete use racket with balance around 3.71 (almost slightly head-heavy) with stiffness of 4.35 (between stiff to very stiff shaft).
 
 Looking into the play types, Men doubles players prefer a much head-heavier (4.4) and stiffer (4.6) racket, while Men singles players use rackets with spec similar to average male athletes. (3.63 for balance rating and 4.38 for stiffness). This is probably due to the fact that Men's doubles only need to cover around half of the court and require less energy in a game. Therefore, the athlete decided to use a head-heavy and stiff racket for more powerful shots. However, that kind of play style will exhaust singles players before their games end. However, it seems the pattern seems to be different for female athletes. It turned out that female singles players use rackets with heavier heads than female doubles. Again, I presumed this is affected by the play style. Offensive play style is not so favourable in women’s doubles so they might prefer rackets with lighter head.
@@ -507,6 +527,8 @@ In conclusion, not all athletes opted for power, they might prefer speed and con
 # Interactive Racket Selection Tool
 
 Now come the highlight. I intended to have a scatter plot reflecting two main spec of the racket along with having multiple filters to help users select their suitable badminton racket. Each racket is coloured by series and shaped by skill level for visibility.
+
+![racket viz](images/selection-tool.png)
 
 Try out the chart in Tableau Public [here](https://public.tableau.com/views/DiscoverYourRacketYonexBadmintonRacketSelectionTool/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
