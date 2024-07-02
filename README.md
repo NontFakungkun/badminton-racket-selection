@@ -4,7 +4,7 @@
 > Also as a bonus, I would like to find what factors make rackets suitable for each skill level and play style, what affects racket price, and how pro athletes pick their racket.
 
 
-# Objectives of this project
+## Objectives of this project
 
 - [x] Establish a badminton racket selection-aiding resource by clustering rackets into 4 quadrants controlled by filters to help users find their ideal rackets.
 
