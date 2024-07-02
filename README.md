@@ -528,7 +528,7 @@ In conclusion, not all athletes opted for power, they might prefer speed and con
 
 Now come the highlight. I intended to have a scatter plot reflecting two main spec of the racket along with having multiple filters to help users select their suitable badminton racket. Each racket is coloured by series and shaped by skill level for visibility.
 
-![racket viz](images/selection-tool.png)
+![racket viz](images/racket-selection-tool.png)
 
 Try out the chart in Tableau Public [here](https://public.tableau.com/views/DiscoverYourRacketYonexBadmintonRacketSelectionTool/SelectionTool?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
