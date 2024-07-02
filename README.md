@@ -1,4 +1,4 @@
-> I personally struggle to find a suitable badminton racket and have to go through a rigorous amount of research to reach a conclusion. I wish there was a one-stop resource that could help me decide which racket is the perfect match based on my preferences. The resource should be comprehensive (include most of the popular rackets) and user-friendly.
+> I personally struggled to find a suitable badminton racket and have to go through a rigorous amount of research to reach a conclusion. I wish there was a one-stop resource that could help me decide which racket is the perfect match based on my preferences. The resource should be comprehensive (include most of the popular rackets) and user-friendly.
 >
 > Also as a bonus, I would like to find what factors make rackets suitable for each skill level and play style, what affects racket price, and how pro athletes pick their racket.
 
@@ -19,9 +19,8 @@
 
 We combine Yonex badminton racket data scraped from 2 different websites which have datasets that together turn into a comprehensive dataset for the topic.
 
-https://badmintongeardatabase.siterubix.com/badminton-rackets-list/
-
-https://www.badmintonmag.com/yonex-badminton-rackets-list/
+1. [Badminton Rackets List from Badminton Gear Database](https://badmintongeardatabase.siterubix.com/badminton-rackets-list/)
+2. [Yonex Badminton Rackets List from Badminton Magazine](https://www.badmintonmag.com/yonex-badminton-rackets-list/)
 
 Due to the data in these sources are in different format, the scraping method needs to be bit different.
 
@@ -94,7 +93,7 @@ df_merged = df2.merge(df1, how='left', on='Full Name')
 
 
 Here is the merged table preview
-
+![merged table](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
 # Data Preparation
@@ -198,7 +197,7 @@ df_player.to_csv(r"C:\Users\Nont\Desktop\Data analytics\Projects\Badminton Analy
 ```
 The player table still needs to be finalised as gender and play type is not given but I can put them in manually since I’m a badminton fan.
 
-
+## Finalised Database
 As result, these are the normalised and cleaned tables ready for further analysis
 
 ### Main Racket Table
@@ -283,76 +282,12 @@ Examine mean values of badminton racket spec and price based on skill level, and
 
 To make balance and stiffness of the racket calculable, I decided to rate them from 1-5
 
+|   | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- |
+| Balance  | Head-light  | Slightly Head-light  | Even balanced  | Slightly head-heavy  | Head-heavy  |
+| Stiffness  | Very flexible  | Flexible  | Medium  | Stiff  | Very stiff  |
 
-	
-
-1
-
-	
-
-2
-
-	
-
-3
-
-	
-
-4
-
-	
-
-5
-
-
-
-
-Balance
-
-	
-
-Head-light
-
-	
-
-Slightly Headlight
-
-	
-
-Medium
-
-	
-
-Slightly head-heavy
-
-	
-
-Head-heavy 
-
-
-
-
-Stiffness
-
-	
-
-Very flexible
-
-	
-
-flexible
-
-	
-
-Even balanced
-
-	
-
-Stiff 
-
-	
-
-Very stiff
+## Aggregate values analysis
 ```
 df_racket = pd.read_csv(r"C:\Users\Nont\Desktop\Data analytics\Projects\Badminton Analysis\badminton_racket_dataset_cleaned2.csv")
 df_size = pd.read_csv(r"C:\Users\Nont\Desktop\Data analytics\Projects\Badminton Analysis\badminton_racket_size_dataset_cleaned.csv")
@@ -448,10 +383,11 @@ The price for beginner rackets are relatively low while the intermediate and adv
 For play style, the result is getting interesting, all round racket price range is huge covering both cheap and premium racket, while the defense racket is slightly higher. However, the offensive racket has the highest price with lowest price range despite having multiple entries in the data. This means offensive rackets are priced similarly high for some reason.
 
 
-
+## Price Relationship Analysis
 Examine price correlation to see what is associated with price. 
 
-Regression: We found a small positive relationship in the linear regression analysis for both the Balance-Price and Stiffness-Price relationships. However, the regression results may not be reliable due to the limited number of scatter points from the small data sample.
+### Regression Analysis
+We found a small positive relationship in the linear regression analysis for both the Balance-Price and Stiffness-Price relationships. However, the regression results may not be reliable due to the limited number of scatter points from the small data sample.
 
 > [!NOTE]
 > to make regression doable, I temporarily removes row with null price, so they will only contain 34 from 53 rackets
@@ -494,10 +430,8 @@ plt.show()
 ```
              
 
-
-
-
-Material bin: Horizontal bar plot is used to show which materials are being used in badminton at different prices. The logic is that I find the average price of badminton rackets containing those materials and use that as plot value. This is because one racket is made of multiple materials so it will be difficult to compare material by racket.
+### Material Analysis
+Horizontal bar plot is used to show which materials are being used in badminton at different prices. The logic is that I find the average price of badminton rackets containing those materials and use that as plot value. This is because one racket is made of multiple materials so it will be difficult to compare material by racket.
 ```
 df_material_price = df_racket.groupby('material')[['price_baht']].mean(numeric_only=True).sort_values("price_baht",ascending=True)
 
@@ -529,8 +463,7 @@ This chart can be useful when examining the materials of the rackets you're inte
 ```
 
 
-
-Pro athlete choices 
+## Pro Athlete Choices 
 ```
 # Combine racket and player table on racket ID
 df_player_racket = df_player.merge(df_racket, left_on='racket_used', right_on='racket_id')
@@ -575,6 +508,6 @@ In conclusion, not all athletes opted for power, they might prefer speed and con
 
 Now come the highlight. I intended to have a scatter plot reflecting two main spec of the racket along with having multiple filters to help users select their suitable badminton racket. Each racket is coloured by series and shaped by skill level for visibility.
 
-The link to interactive chart in Tableau Public: https://public.tableau.com/views/DiscoverYourRacketYonexBadmintonRacketSelectionTool/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+Try out the chart in Tableau Public [here](https://public.tableau.com/views/DiscoverYourRacketYonexBadmintonRacketSelectionTool/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
 
